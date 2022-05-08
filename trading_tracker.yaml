@@ -1,0 +1,19 @@
+name: trading_tracker
+channels:
+  - conda-forge
+dependencies:
+  - fastapi
+  - python=3.9
+  - pydantic
+  - uvicorn
+  - databases
+  - sqlalchemy
+  - alembic
+  - sqlmodel
+  - requests  
+  - python-jose
+  - psycopg2
+  - pip
+  - pip:
+    - fastapi-crudrouter
+    - fastapi-users
